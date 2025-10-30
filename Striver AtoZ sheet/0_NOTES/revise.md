@@ -51,7 +51,7 @@
 
 #### **OPTIMISED APPROACH**
 
-- ![alt text](<Images/alldivisors>)
+- ![alt text](<../Images/alldivisors.png>)
 
 
 
