@@ -13,6 +13,7 @@ class Solution
     }
     cout << current << ", ";
     solve(current + 1, end);
+  
   }
 
 public:
