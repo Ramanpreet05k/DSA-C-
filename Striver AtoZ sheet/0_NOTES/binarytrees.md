@@ -13,7 +13,7 @@
 - subtree : extracted part or portion of tree
 
 
-#### Binary Tree Types
+### Binary Tree Types
 1. Binary Tree
 2. Binary Search Tree
 3. N-array Tree
@@ -23,6 +23,48 @@
  - the last level has all nodes in left as possible
 6. Perfect Binary Tree : all leaf nodes are at the same level , all non leaf nodes must have 2 children.
 7. Balanced Binary Tree : height difference between left and right subtree at any noode must be at max 1.
+8. Degenerate Binary Tree : every node has a single child associated with it.
+
+### binary Tree Representation in c++
+
+Struct Node {
+    int data;
+    Node* left,right;
+    Node(int _data){
+        data = _data;
+        left = right = null;
+    }
+}
+
+main(){
+    Node * root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(3);
+    root->left->left = new Node(4);
+}
+
+
+### binary Tree Representation in java
+
+class Node {
+    int data;
+    Node left,right;
+
+    Node(int _data){
+        data = _data
+        left= right = Null
+    }
+}
+ main(){
+    nODE ROOT = NEW node(1);
+    root.left = new Node(2);
+    root.right = new Node(3);
+ }
+
+
+ ### Traversal Techniques 
+
+ ####
 
 
 
