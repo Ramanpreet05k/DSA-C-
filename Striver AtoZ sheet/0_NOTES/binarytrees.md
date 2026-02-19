@@ -14,11 +14,16 @@
 
 
 #### Binary Tree Types
-- 1. Binary Tree
-- 2. Binary Search Tree
-- 3. N-array Tree
-- 4. Full Binary Tree : all nodes must have 2 or 0 children
-- 5. 
+1. Binary Tree
+2. Binary Search Tree
+3. N-array Tree
+4. Full Binary Tree : all nodes must have 2 or 0 children
+5. Complete Binary Tree : 
+ 1. All levels must be completely filled except the last level
+ 2. the last level has all nodes in left as possible
+6. Perfect Binary Tree : all leaf nodes are at the same level , all non leaf nodes must have 2 children.
+7. Balanced Binary Tree : height difference between left and right subtree at any noode must be at max 1.
+
 
 
 
