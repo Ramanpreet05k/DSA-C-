@@ -44,7 +44,7 @@ main(){
 }
 
 
-### binary Tree Representation in java
+### Binary Tree Representation in java
 
 class Node {
     int data;
@@ -64,11 +64,17 @@ class Node {
 
  ### Traversal Techniques 
 
- ####
+#### **Inorder Traversal**
+- left - root - right
+- traversal is done in this way
 
+#### **Preorder Traversal**
+- root - left - right
+- traversal is done in this way
 
-
-
+#### **Postorder Traversal**
+- left - right - root
+- traversal is done in this way
 
 
 
